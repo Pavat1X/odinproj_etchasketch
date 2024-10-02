@@ -1,0 +1,42 @@
+body {
+    background-color: lightblue
+}
+
+#buttonContainer {
+    margin-top: 10px;
+}
+
+
+ #buttonOne {
+    margin: 0 auto;
+    display: block;
+    padding: 5px;
+}
+
+#dimensionsContainer {
+    margin-top: 10px;
+}
+
+#gridContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.grid-row{
+    display: flex;
+}
+
+.grid-col {
+    flex: 1;
+    padding: 20px;
+    border: 2px solid black;
+    background-color: lightblue;
+}
+
+#dimensions {
+    margin: 0 auto;
+    display: block;
+    padding: 5px;
+}
+
